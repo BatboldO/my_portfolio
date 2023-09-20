@@ -1,8 +1,13 @@
 import React from "react";
-import Layout from "@/components/Layout";
+import Layout from "@/Layout";
 
 const About = () => {
-  return <div className="w-full h-full bg-orange-400">About</div>;
+  return (
+  <Layout name="About">
+  <div className="w-full h-full bg-orange-400">About 123</div>;
+  </Layout>
+  );
+
 };
 
 export default About;

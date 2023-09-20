@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export default function App({ Component, pageProps }) {
   return (
-    <div className=" text-white h-screen">
+    <div className=" text-white h-screen bg-slate-400">
       <Header />
       <Component {...pageProps} />
       <Footer />

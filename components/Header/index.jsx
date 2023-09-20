@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <header className="bg-slate-800">
+    <header className="bg-slate-950">
       <div className="flex justify-around">
         <motion.div
           initial={{ x: -100, opacity: 0, scale: 0 }}
           animate={{ x: 0, opacity: 1, scale: 1 }}
-          transition={{ duration: 1.5 }}
-          className="text-3xl text-purple-500 items-center"
+          transition={{ duration: 2 }}
+          className="text-3xl text-slate-600 items-center"
         >
           LOGO
         </motion.div>
@@ -20,14 +20,14 @@ const Header = () => {
           transition={{ duration: 1.5 }}
           className="flex items-center justify-between "
         >
-          <Link className="ml-3" href="/">
-            Нүүр
+          <Link className="ml-3 text-slate-600" href="/">
+            Home
           </Link>
-          <Link className="ml-3" href="/about">
-            Миний тухай
+          <Link className="ml-3 text-slate-600" href="/about">
+            About Me
           </Link>
-          <Link className="ml-3" href="/contact">
-            Холбоо барих
+          <Link className="ml-3 text-slate-600" href="/contact">
+            Contact
           </Link>
         </motion.div>
       </div>

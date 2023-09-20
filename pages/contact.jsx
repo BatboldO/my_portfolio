@@ -1,8 +1,12 @@
 import React from "react";
-import Layout from "@/components/Layout";
+import Layout from "@/Layout";
 
 const Contact = () => {
-  return <div className="w-full h-full bg-red-400">Contact</div>;
+    return (
+   <Layout name="contact">
+    <div classname="w-full h-full bg-orange-400">contact</div>
+    </Layout>
+    )
 };
 
 export default Contact;
