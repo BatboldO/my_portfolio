@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <header className="bg-slate-950  position:sticky">
+    <header className="bg-slate-950 ">
       <div className="flex justify-around">
         <motion.div
           initial={{ x: -100, opacity: 0, scale: 0 }}
@@ -33,7 +33,7 @@ const Header = () => {
             Other works
           </Link>
           <Link className="ml-3 text-slate-600" href="/media">
-            Social media
+            Blogs
           </Link>
         </motion.div>
       </div>

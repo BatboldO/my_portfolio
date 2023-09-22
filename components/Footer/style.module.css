@@ -1,5 +1,6 @@
 .navbar {
-  background-color: teal;
+  background-color: black;
+  justify-content:center;
 }
 
 .content {
