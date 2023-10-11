@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="h-full">
       <div className="w-full">
-        <h1 className="text-5xl  text-black-600 ">
+        <h1 className="text-5xl  text-black-600 m-16 ">
           I am{" "}
           <span>
             <Typewriter
@@ -21,7 +21,7 @@ export default function Home() {
     
       </div>
 
-      <h2 className="m-16 text-md text-black-600">
+      <h2 className="m-16 text-lg text-black-600">
       My name is{" "}
           <span>
             <Typewriter
@@ -38,11 +38,10 @@ export default function Home() {
        </h2>
 
     <div className="flex-row m-16">
-      <img className="h-52 w-52 justify-center m-16" src="https://img.icons8.com/clouds/100/000000/imac-settings.png" alt="imac-settings"></img>
-     <div>Why I code reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+      <img className="h-28 w-28 justify-center m-16 text-lg" src="https://img.icons8.com/clouds/100/000000/imac-settings.png" alt="imac-settings"></img>
+     <div text>Why I code <br/> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
       </div>
-
-      <img className="h-32 w-32 justify-center" src="https://img.icons8.com/clouds/100/000000/imac-settings.png" alt="imac-settings"></img>
+      
     </main>
   );
 }

@@ -38,7 +38,15 @@ const About = () => {
          <div className="text-cyan-600 mb-10">Employment history</div>
 
         </div>
-        <div className="bg-gray-200 flex-1 p-6">B</div>
+        <div className="bg-gray-200 flex-1 p-6">
+          <div>Uni</div>
+          <div>Skills</div>
+          <div>employment</div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </header>
   
